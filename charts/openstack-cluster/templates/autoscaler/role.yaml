@@ -24,3 +24,10 @@ rules:
       - get
       - patch
       - update
+  - apiGroups:
+      - cluster.x-k8s.io
+    resources:
+      - openstackmachinetemplates
+    verbs:
+      - get
+      - list
